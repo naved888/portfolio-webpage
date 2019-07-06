@@ -1,5 +1,35 @@
 body {
-	background-color: #fff;
-	font-family: 'ubuntu', sans-serif;
-	color: #212121;
+    background-color: #fff;
+    font-family: 'ubuntu', sans-serif;
+    color: #fff6f6;
+    margin: 0%;
+}
+
+ul {
+    background-image: url(https://ak2.picdn.net/shutterstock/videos/3858362/thumb/11.jpg);
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+    margin-top: 0%;
+    text-align: left;
+
+}
+
+li {
+    display: inline-block;
+    border: 1px solid white;
+    margin-left: 20px;
+    font-size: 20px;
+    
+    margin-top: 30px;
+    padding: 5px;
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(199, 116, 116)
+}
+a:hover {
+    color: rgb(255, 254, 254);
 }
