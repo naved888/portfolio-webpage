@@ -34,10 +34,11 @@ body {
 }
 
 .wrapper {
-    background-image: url(https://www.tokkoro.com/picsup/2930098-johnny-depp-pirates-of-the-caribbean-jack-sparrow___mixed-wallpapers.jpg);
+    background-image: url(./assets/images/preview.jpg);
     height: 100vh;
     background-size: cover;
-    background-position: center;
+    background-position: right;
+    padding-top: 100px;
     
 }
 
