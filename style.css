@@ -4,6 +4,9 @@ body {
     margin: 0%;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 
 .nav {
@@ -45,12 +48,15 @@ body {
 
 a {
     text-decoration: none;
-    color: red
+    color: red;
+    transition: transform .2s;
+  
 }
 
 a:hover {
     background: whitesmoke;
     color: rgb(0, 0, 0);
+    transform: scale(1.2);
 }
 
 .wrap {
@@ -91,8 +97,9 @@ button {
 
 .skill1 {
     background: linear-gradient(90deg, rgba(180, 58, 58, 1) 0%, rgba(253, 29, 29, 1) 0%, rgba(34, 53, 168, 1) 91%);
-
+    border: 10px double gold;
 }
+
 
 .skills {
     color: rgb(255, 255, 255);
@@ -214,3 +221,4 @@ ul li {
     width: 50px;
     
 } */
+
