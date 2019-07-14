@@ -1,7 +1,6 @@
 body {
     background-color: #fff;
     font-family: 'Russo One', sans-serif;
-    
     margin: 0%;
 }
 
@@ -16,6 +15,7 @@ body {
     width: 100%;
     text-align: center;
     text-decoration: none;
+
 
 }
 
@@ -39,7 +39,8 @@ body {
     background-size: cover;
     background-position: right;
     padding-top: 100px;
-    
+    margin-bottom: -50px;
+
 }
 
 a {
@@ -48,34 +49,34 @@ a {
 }
 
 a:hover {
-    background: rgb(180,58,58);
-background: radial-gradient(circle, rgba(180,58,58,1) 0%, rgba(255,0,52,1) 0%, rgba(240,255,0,1) 70%);
-color: blue;
+    background: rgb(180, 58, 58);
+    background: radial-gradient(circle, rgba(180, 58, 58, 1) 0%, rgba(255, 0, 52, 1) 0%, rgba(240, 255, 0, 1) 70%);
+    color: blue;
 }
 
 .wrap {
-    position: absolute;
+    position: static;
     color: aqua;
     margin: 100px 60px;
     font-size: 50px;
 }
 
 .wrap1 {
-    position: absolute;
+    position: static;
     color: aqua;
-    margin: 160px 60px;
-    
+    margin: -80px 60px;
+
 }
 
 .wrap2 {
-    position: absolute;
-    color: aqua ;
-    margin: 190px 30px;
+    position: static;
+    color: aqua;
+    margin: 100px 30px;
     font-size: 30px;
     border: 2px double red;
     text-align: center;
     margin-right: 700px;
-    
+
 }
 
 button {
@@ -86,4 +87,100 @@ button {
     font-family: fantasy;
     margin-left: -280px;
     border-color: red;
+}
+
+.skill1 {
+    background-color: #333;
+
+}
+
+.skills {
+    color: rgb(255, 255, 255);
+    padding: 150px;
+    position: static;
+    text-align: left;
+    height: 100vh;
+    width: vh;
+    font-family: sans-serif;
+    font-size: 30px;
+    list-style: none;
+
+}
+
+.bar {
+    display: block;
+    height: 2px;
+    background: #353b48;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #f80000;
+
+}
+
+.bar span {
+    height: 2px;
+    float: left;
+    background: rgb(192, 192, 192);
+
+}
+
+.youtube {
+    width: 85%;
+    animation: youtube 2s;
+}
+
+.programming {
+    width: 10%;
+    animation: programming 2s;
+}
+
+.technology {
+    width: 60%;
+    animation: technology 2s;
+}
+
+.communication {
+    width: 90%;
+    animation: communication 2s;
+}
+
+@keyframes youtube {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 85%;
+    }
+}
+
+@keyframes programming {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 10%;
+    }
+}
+
+@keyframes technology {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+
+@keyframes communication {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 90%;
+    }
 }
