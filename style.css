@@ -49,9 +49,8 @@ a {
 }
 
 a:hover {
-    background: rgb(180, 58, 58);
-    background: radial-gradient(circle, rgba(180, 58, 58, 1) 0%, rgba(255, 0, 52, 1) 0%, rgba(240, 255, 0, 1) 70%);
-    color: blue;
+    background: whitesmoke;
+    color: rgb(0, 0, 0);
 }
 
 .wrap {
@@ -76,21 +75,22 @@ a:hover {
     border: 2px double red;
     text-align: center;
     margin-right: 700px;
-
+    border-radius: 50px;
 }
 
 button {
     font-size: 30px;
     color: rgb(255, 17, 17);
     background-color: rgb(0, 0, 0);
-    margin: 430px;
+    margin-top: -200px;
     font-family: fantasy;
-    margin-left: -280px;
+    margin-left: 250px;
     border-color: red;
+    padding: 2px;
 }
 
 .skill1 {
-    background-color: #333;
+    background: linear-gradient(90deg, rgba(180, 58, 58, 1) 0%, rgba(253, 29, 29, 1) 0%, rgba(34, 53, 168, 1) 91%);
 
 }
 
@@ -111,10 +111,10 @@ button {
     display: block;
     height: 2px;
     background: #353b48;
-    border: 1px solid rgba(0, 0, 0, 0.3);
+    border: 1px solid rgb(83, 80, 67);
     border-radius: 3px;
     overflow: hidden;
-    box-shadow: 0 0 10px #f80000;
+    box-shadow: 0 0 10px #fffb00;
 
 }
 
@@ -123,6 +123,18 @@ button {
     float: left;
     background: rgb(192, 192, 192);
 
+}
+
+.per {
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 930px;
+    background-color: rgb(35, 43, 34);
+    border: 2px solid red;
+    padding-left: 50px;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    color: rgb(255, 255, 255);
 }
 
 .youtube {
@@ -184,3 +196,21 @@ button {
         width: 90%;
     }
 }
+
+/* pending
+.qualification ul li img {
+    width: 100px;
+    
+    
+}
+
+ul {
+    text-align: center;
+    font-size: 10px;
+}
+
+ul li {
+    
+    width: 50px;
+    
+} */
